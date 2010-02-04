@@ -1,21 +1,15 @@
-========================================================================
-    MayaPluginWizard : "SIO2_Maya_Exporter" Project Overview
-========================================================================
+1 - Load .mll plug in in Maya 2009.
 
-MayaPluginWizard has created this "SIO2_Maya_Exporter" project for you as a starting point.
+2 - From Mel prompt execute "SIO2_Exporter_1_3_5 -n SceneFolderName -d destinationDirectoryPath -bs"
 
-This file contains a summary of what you will find in each of the files that make up your project.
+3 - Once exported, you will need to compress it yourself to transfer it to Mac.
 
-MayaPluginWizard.vcproj
-    This is the main project file for projects generated using an Application Wizard. 
-    It contains information about the version of the product that generated the file, and 
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+4 - Once on the Mac I found that it saves you a lot of headaches if you:
 
-Options.txt
-	This text file explains which options you selected for your new project.
+4.1 - Uncompress the folder
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
+4.2 - cd into the uncompressed folder
 
-/////////////////////////////////////////////////////////////////////////////
+4.3 - Use the command line to zip it into your .sio2 file. 
+     
+    Command :  zip -9 -o filename.sio2 -r *
