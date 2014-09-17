@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Sio2 maya exporter by CodeMinion</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/CodeMinion/SIO2_Maya_Exporter">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Sio2 maya exporter</h1>
+            <h2>Exporter from Maya 2009 to SIO2Interactive 1.3.5 format. </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/CodeMinion/SIO2_Maya_Exporter/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/CodeMinion/SIO2_Maya_Exporter/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>Description: This was developed with a specific project in mind mind. So it is not by no means complete.</p>
+
+<p>1 - Load .mll plug in in Maya 2009.</p>
+
+<p>2 - From Mel prompt execute "SIO2_Exporter_1_3_5 -n SceneFolderName -d destinationDirectoryPath -bs"</p>
+
+<p>3 - Once exported, you will need to compress it yourself to transfer it to Mac.</p>
+
+<p>4 - Once on the Mac I found that it saves you a lot of headaches if you:</p>
+
+<p>4.1 - Uncompress the folder</p>
+
+<p>4.2 - cd into the uncompressed folder</p>
+
+<p>4.3 - Use the command line to zip it into your .sio2 file. </p>
+
+<pre><code>Command :  zip -9 -o filename.sio2 -r *
+</code></pre>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/CodeMinion">CodeMinion</a> can be found on <a href="https://github.com/CodeMinion/SIO2_Maya_Exporter">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
